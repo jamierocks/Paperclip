@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+
+    id 'idea'
+    id 'eclipse'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group = 'com.destroystokyo'
+archivesBaseName = project.name.toLowerCase()
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
